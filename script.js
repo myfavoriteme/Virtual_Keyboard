@@ -534,3 +534,26 @@ CreateLine(29, 42, line3);
 CreateLine(42, 55, line4);
 CreateLine(55, 64, line5);
 
+document.querySelector('.textarea').setAttribute("autofocus")
+
+let keys = document.querySelectorAll('.key');
+
+document.querySelector('.textarea').onkeydown = function (event) {
+    console.log(this);
+    console.log(event.code);
+    console.log(event.charCode);
+    console.log(event.shiftKey);
+    let c = '.' + event.code;
+    document.querySelector(c).classList.add('pressed');
+    
+
+}
+document.querySelector('.textarea').onkeyup = function (event){
+    let c1 = '.' + event.code;
+    document.querySelector(c1).classList.remove('pressed');
+}
+
+keys.forEach(b=>b.addEventListener('mousdown', function showKey(){
+    this.classList.add('pressed');
+    
+}));

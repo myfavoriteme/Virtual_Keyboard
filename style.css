@@ -75,6 +75,9 @@
 .rus__text_up{
     color: aliceblue;
 }
+.pressed{
+    background-color: bisque;
+}
 
 /*
 .delete{
