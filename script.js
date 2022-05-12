@@ -1,104 +1,104 @@
 let keysEng = [
     {
-        "class": "backquote",
+        "class": "Backquote",
         "text": "`",
         "upperCase": "~",
         "text_ru": "ё",
         "upperCase_ru": "Ё"
     },
     {
-        "class":"digit_1",
+        "class":"Digit1",
         "text": "1",
         "upperCase": "!",
         "text_ru": "1",
         "upperCase_ru": "!"
     },
     {
-        "class":"digit_2",
+        "class":"Digit2",
         "text": "2",
         "upperCase": "@",
         "text_ru": "2",
         "upperCase_ru": '"'
     },
     {
-        "class":"digit_3",
+        "class":"Digit3",
         "text": "3",
         "upperCase": "#",
         "text_ru": "3",
         "upperCase_ru": "№"
     },
     {
-        "class":"digit_4",
+        "class":"Digit4",
         "text": "4",
         "upperCase": "$",
         "text_ru": "4",
         "upperCase_ru": ";"
     },
     {
-        "class":"digit_5",
+        "class":"Digit5",
         "text": "5",
         "upperCase": "%",
         "text_ru": "5",
         "upperCase_ru": "%"
     },
     {
-        "class":"digit_6",
+        "class":"Digit6",
         "text": "6",
         "upperCase": "^",
         "text_ru": "6",
         "upperCase_ru": ":"
     },
     {
-        "class":"digit_7",
+        "class":"Digit7",
         "text": "7",
         "upperCase": "&",
         "text_ru": "7",
         "upperCase_ru": "?"
     },
     {
-        "class":"digit_8",
+        "class":"Digit8",
         "text": "8",
         "upperCase": "*",
         "text_ru": "8",
         "upperCase_ru": "*"
     },
     {
-        "class":"digit_9",
+        "class":"Digit9",
         "text": "9",
         "upperCase": "(",
         "text_ru": "9",
         "upperCase_ru": "("
     },
     {
-        "class":"digit_0",
+        "class":"Digit0",
         "text": "0",
         "upperCase": ")",
         "text_ru": "0",
         "upperCase_ru": ")"
     },
     {
-        "class":"minus",
+        "class":"Minus",
         "text":"-",
         "upperCase": "_",
         "text_ru": "-",
         "upperCase_ru": "_"
     },
     {
-        "class":"equal",
+        "class":"Equal",
         "text":"=",
         "upperCase": "+",
         "text_ru": "=",
         "upperCase_ru": "+"
     },
     {
-        "class":"backspace",
+        "class":"Backspace",
         "text":"Backspace",
         "upperCase": "Backspace",
         "text_ru": "Backspace",
         "upperCase_ru": "Backspace"
     },
     {
-        "class":"tab",
+        "class":"Tab",
         "text":"Tab",
         "upperCase": "Tab",
         "text_ru": "Tab",
@@ -175,28 +175,28 @@ let keysEng = [
         "upperCase_ru": "З"
     },
     {
-        "class":"bracket_left",
+        "class":"BracketLeft",
         "text":"[",
         "upperCase": "{",
         "text_ru": "х",
         "upperCase_ru": "Х"
     },
     {
-        "class":"bracket_right",
+        "class":"BracketRight",
         "text":"]",
         "upperCase": "}",
         "text_ru": "ъ",
         "upperCase_ru": "Ъ"
     },
     {
-        "class":"BackSlash",
+        "class":"Backslash",
         "text": "&frasl;",
         "upperCase": "|",
         "text_ru": "&frasl;",
         "upperCase_ru": "|"
     },
     {
-        "class":"delete",
+        "class":"Delete",
         "text":"Del",
         "upperCase": "Del",
         "text_ru": "Del",
@@ -273,14 +273,14 @@ let keysEng = [
         "upperCase_ru": "Д",
     },
     {
-        "class":"semicolon",
+        "class":"Semicolon",
         "text":";",
         "upperCase": ":",
         "text_ru": "ж",
         "upperCase_ru": "Ж",
     },
     {
-        "class":"quote",
+        "class":"Quote",
         "text":"'",
         "upperCase": '"',
         "text_ru": "э",
@@ -357,7 +357,7 @@ let keysEng = [
         "upperCase_ru": "",
     },
     {
-        "class":"Dot",
+        "class":"Period",
         "text":".",
         "upperCase": ">",
         "text_ru": "",
@@ -371,7 +371,7 @@ let keysEng = [
         "upperCase_ru": "",
     },
     {
-        "class":"Up",
+        "class":"ArrowUp",
         "text":"&#11205;",
         "upperCase": "&uArr;",
         "text_ru": "&uArr;",
@@ -385,21 +385,21 @@ let keysEng = [
         "upperCase_ru": "Shift",
     },
     {
-        "class":"Ctrl",
+        "class":"ControlLeft",
         "text":"Ctrl",
         "upperCase": "Ctrl",
         "text_ru": "Ctrl",
         "upperCase_ru": "Ctrl",
     },
     {
-        "class":"Win",
+        "class":"MetaLeft",
         "text":"Win",
         "upperCase": "Win",
         "text_ru": "Win",
         "upperCase_ru": "Win",
     },
     {
-        "class":"Alt",
+        "class":"AltLeft",
         "text":"Alt",
         "upperCase": "Alt",
         "text_ru": "Alt",
@@ -413,35 +413,35 @@ let keysEng = [
         "upperCase_ru": "&#32;",
     },
     {
-        "class":"Alt",
+        "class":"AltRight",
         "text":"Alt",
         "upperCase": "Alt",
         "text_ru": "Alt",
         "upperCase_ru": "Alt",
     },
     {
-        "class":"left",
+        "class":"ArrowLeft",
         "text":"&#11207;",
         "upperCase": "&#11207;",
         "text_ru": "&#11207;",
         "upperCase_ru": "&#11207;",
     },
     {
-        "class":"down",
+        "class":"ArrowDown",
         "text":"&#11206;",
         "upperCase": "&#11206;",
         "text_ru": "&#11206;",
         "upperCase_ru": "&#11206;",
     },
     {
-        "class":"right",
+        "class":"ArrowRight",
         "text":"&#11208;",
         "upperCase": "&#11208;",
         "text_ru": "&#11208;",
         "upperCase_ru": "&#11208;",
     },
     {
-        "class":"Ctrl",
+        "class":"ControlRight",
         "text":"Ctrl",
         "upperCase": "Ctrl",
         "text_ru": "Ctrl",
